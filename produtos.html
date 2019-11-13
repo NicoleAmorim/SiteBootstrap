@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Produtos</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <style>
+    	.fundo{
+            width: 100%;
+            height: 600px;
+        }
+        .distancia{
+            padding-bottom : 20%;
+        }
+        .distancia2{
+            padding-bottom : 10%;
+        }
+        .distancia3{
+            padding-bottom: 5%;
+        }
+        .distancia4{
+            margin-right: 120px;
+        }
+        .icones{
+            width : 128px;
+            height : 128px;
+        }
+        .imgPromo{
+            width : 100%; 
+            height : 600px; 
+        }
+        .imgPromoSmall{
+            width : 100%; 
+            height : 300px; 
+        }
+        .imgPromo2{
+            width : 100%; 
+            height : 800px; 
+        }
+    </style>
+</head> 
+
+<body>
+	<!--Navbar-->
+	<nav class="navbar navbar-expand-xl bg-info navbar-light">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"></a>
+            
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <div>
+                    <ul class="nav nav-pills justify-content-center distancia4">
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link btn btn-info btn-block mb-5 mb-xl-0">Imagem</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <ul class="nav nav-pills justify-content-center distancia4">
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link btn btn-info btn-block mb-5 mb-xl-0">Apresentação</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <ul class="nav nav-pills justify-content-center distancia4">
+                        <li class="nav-item">
+                            <a href="quem_somos.html" class="nav-link btn btn-info btn-block mb-5 mb-xl-0">Quem Somos</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <ul class="nav nav-pills justify-content-center distancia4">
+                        <li class="nav-item">
+                            <a href="produtos.html" class="nav-link active btn btn-info btn-block mb-5 mb-xl-0">Produtos</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <ul class="nav nav-pills justify-content-center distancia4">
+                        <li class="nav-item">
+                            <a href="entrar.html" class="nav-link btn btn-info btn-block mb-5 mb-xl-0">Entre ou Cadastre-se</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!--Card 1-->
+    <div class="container my-5"> 
+        <div class="row mb-5"> 
+        	<!--Card 1-->
+            <div class="col-lg-3 col-sm-6">
+                <div class="card h-100"> 
+                    <img class="card-img-top" src="imagens/jeans3.jpg"> 
+                    <div class="card-body"> 
+                        <h4 class="card-title text-center mb-2">Conjunto Casual</h4>
+                        <br>
+                        <h6 class="card-subtitle text-justify">lalalalala 
+                            <br>
+                            <br>
+                        </h6>
+                        <br>
+                    </div>
+                    <div class='card-footer bg-white border-0'> 
+                        <form action="add_item.php" method="POST"> 
+                            <button class="btn btn-outline-info btn-block card-link"> 
+                                <label class="mr-3 mt-2">R$ 1000,00</label> 
+                                <img src="imagens/carrinho_p.png" alt="Carrinho de compras">  
+                            </button>
+                        </form>
+                    </div>     
+                </div>
+            </div>
+            <!--Card 2-->
+            <div class="col-lg-3 col-sm-6">
+                <div class="card h-100">
+                    <img class="card-img-top" src="imagens/blusa3.jpg"> 
+                    <div class="card-body"> 
+                        <h4 class="card-title text-center mb-2">Conjunto Formal</h4> 
+                        <br>
+                        <h6 class="card-subtitle text-justify">lalalalala . 
+                            <br>
+                            <br>
+                        </h6>
+                        <br>
+                    </div>
+                    <div class='card-footer bg-white border-0'>  
+                        <form action="add_item.php" method="POST"> 
+                            <button class="btn btn-outline-info btn-block card-link"> 
+                                <label class="mr-3 mt-2">R$ 3000,00</label> 
+                                <img src="imagens/carrinho_p.png" alt="Carrinho de compras"> 
+                            </button>
+                        </form>
+                    </div>     
+                </div>
+            </div>
+            <!--Card 3-->
+            <div class="col-lg-3 col-sm-6"> 
+                <div class="card h-100"> 
+                    <img class="card-img-top" src="imagens/blusa5.jpg"> 
+                    <div class="card-body">
+                        <h4 class="card-title text-center mb-2">Jaqueta de Couro</h4> 
+                        <br>
+                        <h6 class="card-subtitle text-justify">lalalalala . 
+                            <br>
+                            <br>
+                        </h6>
+                        <br>
+                    </div>
+                    <div class='card-footer bg-white border-0'>  
+                        <form action="add_item.php" method="POST"> 
+                            <button class="btn btn-outline-info btn-block card-link"> 
+                                <label class="mr-3 mt-2">R$ 1800,00</label> 
+                                <img src="imagens/carrinho_p.png" alt="Carrinho de compras"> 
+                            </button>
+                        </form>
+                    </div>     
+                </div>
+            </div>
+            <!--Card 4-->
+            <div class="col-lg-3 col-sm-6"> 
+                <div class="card h-100"> 
+                    <img class="card-img-top" src="imagens/classic.jpg"> 
+                    <div class="card-body">
+                        <h4 class="card-title text-center mb-2">Conjunto Casual</h4> 
+                        <br>
+                        <h6 class="card-subtitle text-justify">lalalalala .
+                            <br>
+                            <br>
+                        </h6>
+                        <br>
+                    </div> 
+                    <div class='card-footer bg-white border-0'>  
+                        <form action="add_item.php" method="POST"> 
+                            <button class="btn btn-outline-info btn-block card-link"> 
+                                <label class="mr-3 mt-2">R$ 450,00</label>
+                                <img src="imagens/carrinho_p.png" alt="Carrinho de compras"> 
+                            </button>
+                        </form>
+                    </div>     
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Card 2-->
+    <div class="container my-5"> 
+        <div class="row mb-5"> 
+        	<!--Card 1-->
+            <div class="col-lg-3 col-sm-6">
+                <div class="card h-100"> 
+                    <img class="card-img-top" src="imagens/blusa4.jpg"> 
+                    <div class="card-body"> 
+                        <h4 class="card-title text-center mb-2">Conjunto Formal</h4>
+                        <br>
+                        <h6 class="card-subtitle text-justify">lalalalala 
+                            <br>
+                            <br>
+                        </h6>
+                        <br>
+                    </div>
+                    <div class='card-footer bg-white border-0'> 
+                        <form action="add_item.php" method="POST"> 
+                            <button class="btn btn-outline-info btn-block card-link"> 
+                                <label class="mr-3 mt-2">R$ 200,00</label> 
+                                <img src="imagens/carrinho_p.png" alt="Carrinho de compras">  
+                            </button>
+                        </form>
+                    </div>     
+                </div>
+            </div>
+            <!--Card 2-->
+            <div class="col-lg-3 col-sm-6">
+                <div class="card h-100">
+                    <img class="card-img-top" src="imagens/blusa.jpg"> 
+                    <div class="card-body"> 
+                        <h4 class="card-title text-center mb-2">Conjunto Inverno</h4> 
+                        <br>
+                        <h6 class="card-subtitle text-justify">lalalalala . 
+                            <br>
+                            <br>
+                        </h6>
+                        <br>
+                    </div>
+                    <div class='card-footer bg-white border-0'>  
+                        <form action="add_item.php" method="POST"> 
+                            <button class="btn btn-outline-info btn-block card-link"> 
+                                <label class="mr-3 mt-2">R$ 170,00</label> 
+                                <img src="imagens/carrinho_p.png" alt="Carrinho de compras"> 
+                            </button>
+                        </form>
+                    </div>     
+                </div>
+            </div>
+            <!--Card 3-->
+            <div class="col-lg-3 col-sm-6"> 
+                <div class="card h-100"> 
+                    <img class="card-img-top" src="imagens/blusa6.jpg"> 
+                    <div class="card-body">
+                        <h4 class="card-title text-center mb-2">Cropped</h4> 
+                        <br>
+                        <h6 class="card-subtitle text-justify">lalalalala . 
+                            <br>
+                            <br>
+                        </h6>
+                        <br>
+                    </div>
+                    <div class='card-footer bg-white border-0'>  
+                        <form action="add_item.php" method="POST"> 
+                            <button class="btn btn-outline-info btn-block card-link"> 
+                                <label class="mr-3 mt-2">R$ 40,00</label> 
+                                <img src="imagens/carrinho_p.png" alt="Carrinho de compras"> 
+                            </button>
+                        </form>
+                    </div>     
+                </div>
+            </div>
+            <!--Card 4-->
+            <div class="col-lg-3 col-sm-6"> 
+                <div class="card h-100"> 
+                    <img class="card-img-top" src="imagens/jeans8.jpg"> 
+                    <div class="card-body">
+                        <h4 class="card-title text-center mb-2">Calça Jeans Lycra</h4> 
+                        <br>
+                        <h6 class="card-subtitle text-justify">lalalalala .
+                            <br>
+                            <br>
+                        </h6>
+                        <br>
+                    </div> 
+                    <div class='card-footer bg-white border-0'>  
+                        <form action="add_item.php" method="POST"> 
+                            <button class="btn btn-outline-info btn-block card-link"> 
+                                <label class="mr-3 mt-2">R$ 130,00</label>
+                                <img src="imagens/carrinho_p.png" alt="Carrinho de compras"> 
+                            </button>
+                        </form>
+                    </div>     
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+	 
+</body>
+
+</html>

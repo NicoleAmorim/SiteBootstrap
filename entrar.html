@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cadastre-se</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <style>
+        .fundo{
+            width: 100%;
+            height: 600px;
+        }
+        .distancia{
+            padding-bottom : 20%;
+        }
+        .distancia2{
+            padding-bottom : 10%;
+        }
+        .distancia3{
+            padding-bottom: 5%;
+        }
+        .distancia4{
+            margin-right: 120px;
+        }
+        .distancia5{
+            margin-top: 10px;
+        }
+        .distancia6{
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <!--Navbar-->
+	<nav class="navbar navbar-expand-xl bg-info navbar-light">
+            <div class="container">
+                <a class="navbar-brand" href="index.html"></a>
+                
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <div>
+                        <ul class="nav nav-pills justify-content-center distancia4">
+                            <li class="nav-item">
+                                <a href="index.html" class="nav-link btn btn-info btn-block mb-5 mb-xl-0">Imagem</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul class="nav nav-pills justify-content-center distancia4">
+                            <li class="nav-item">
+                                <a href="index.html" class="nav-link btn btn-info btn-block mb-5 mb-xl-0">Apresentação</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul class="nav nav-pills justify-content-center distancia4">
+                            <li class="nav-item">
+                                <a href="quem_somos.html" class="nav-link btn btn-info btn-block mb-5 mb-xl-0">Quem Somos</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul class="nav nav-pills justify-content-center distancia4">
+                            <li class="nav-item">
+                                <a href="produtos.html" class="nav-link btn btn-info btn-block mb-5 mb-xl-0">Produtos</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul class="nav nav-pills justify-content-center distancia4">
+                            <li class="nav-item">
+                                <a href="entrar.html" class="nav-link active btn btn-info btn-block mb-5 mb-xl-0">Entre ou Cadastre-se</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+    <!--Login-->
+    <div class="container row my-5 mx-auto">
+        <div class="col-lg-6 text-center">
+            <h1 class="display-5">Já sou usuário da Olympéa</h1>
+            <small id="emailHelp" class="form-text text-muted">Insira o seu e-mail e a sua senha para se identificar.</small>
+            <form action="" method="POST">
+                <div class="form-row">
+                    <div class="col-lg-9 my-1 mx-auto">        
+                        <label class="form-text text-muted text-justify distancia5">Email</label>
+                    </div>    
+                </div>
+                <div class="form-row">
+                    <div class="col-lg-9 my-1 mx-auto" id="login-email"> 
+                        <input class="form-control form-control-lg" type="text" placeholder="Digite seu e-mail" name="e-mail">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="col-lg-9 my-1 mx-auto">
+                        <label class="form-text text-muted text-justify">Senha</label>
+                    </div>    
+                </div>
+                    <div class="form-row">
+                        <div class="col-lg-9 my-1 mx-auto" id="Senha">
+                            <input class="form-control form-control-lg" type="password" placeholder="Digite sua senha" name="Senha">
+                        </div>
+                    </div>
+                    <!--Botão-->
+                    <div class="form-row">
+                        <div class="my-5 mx-auto col-lg-6">
+                            <a class="form-control form-control-lg btn-lg btn btn-info" href="index.html" role="button">Entrar</a>
+                        </div>
+                    </div>
+            </form>
+            <div class="form-row">
+                <div class="col-lg-5 ml-auto text-center">
+                    <a class="nav-link"> </a>
+                </div>
+            </div>
+        </div>
+
+    <!--Cadastro-->
+    <div class="col-lg-6 text-center">
+        <h1 class="display-5">Cadastre-se</h1>
+        <form action="" method="POST">
+            <small id="emailHelp" class="form-text text-muted distancia6">Se ainda não tem uma conta de usuário da Olympéa, utilize esta opção para acessar o formulário de registro.</small>
+            <div class="form-row">
+                <div class="my-5 mx-auto col-lg-6">
+                    <a class="form-control form-control-lg btn-lg btn btn-info" href="cadastro.html" role="button">Cadastrar</a>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="col-lg-5 ml-auto text-center">
+                    <a class="nav-link"></a>
+                </div>
+            </div>
+        </form>
+    </div>
+    
+</body>
+</html>

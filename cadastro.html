@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cadastre-se</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <style>
+        .fundo{
+            width: 100%;
+            height: 600px;
+        }
+        .distancia{
+            margin-top: 30px;
+        }
+        .distancia2{
+            padding-bottom : 10%;
+        }
+        .distancia3{
+            padding-bottom: 5%;
+        }
+        .distancia4{
+            margin-right: 120px;
+        }
+        .distancia5{
+            margin-top: 90px;
+        }
+    </style>
+</head>
+<body>
+    <!--Navbar-->
+	<nav class="navbar navbar-expand-xl bg-info navbar-light">
+            <div class="container">
+                <a class="navbar-brand" href="index.html"></a>
+                
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <div>
+                        <ul class="nav nav-pills justify-content-center distancia4">
+                            <li class="nav-item">
+                                <a href="index.html" class="nav-link btn btn-info btn-block mb-5 mb-xl-0">Imagem</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul class="nav nav-pills justify-content-center distancia4">
+                            <li class="nav-item">
+                                <a href="index.html" class="nav-link btn btn-info btn-block mb-5 mb-xl-0">Apresentação</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul class="nav nav-pills justify-content-center distancia4">
+                            <li class="nav-item">
+                                <a href="quem_somos.html" class="nav-link btn btn-info btn-block mb-5 mb-xl-0">Quem Somos</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul class="nav nav-pills justify-content-center distancia4">
+                            <li class="nav-item">
+                                <a href="produtos.html" class="nav-link btn btn-info btn-block mb-5 mb-xl-0">Produtos</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul class="nav nav-pills justify-content-center distancia4">
+                            <li class="nav-item">
+                                <a href="entrar.html" class="nav-link active btn btn-info btn-block mb-5 mb-xl-0">Entre ou Cadastre-se</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+    </nav>
+    <!--Cadastro-->
+    <div class="col-lg-6 text-center container">
+            <h1 class="display-5 distancia">Cadastre-se</h1>
+            <small id="emailHelp" class="form-text text-muted">Preencha os campos abaixo para fazer o cadastro.</small>
+            <form>    
+                <div class="form-row distancia">
+                    <div class="col">
+                        <label class="form-text text-muted text-justify">Nome</label>
+                    </div>
+                    <div class="col">
+                        <label class="form-text text-muted text-justify">Sobrenome</label>
+                    </div>
+                </div>
+            </form>
+            <form>    
+                <div class="form-row">
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="Digite seu nome">
+                    </div>
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="Digite seu sobrenome">
+                    </div>
+                </div>
+            </form><br>
+            <form>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label class="form-text text-muted text-justify">Email</label>
+                        <input type="email" class="form-control" id="inputEmail4" placeholder="Email@exemplo.com">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label class="form-text text-muted text-justify">Senha</label>
+                        <input type="password" class="form-control" id="inputPassword4" placeholder="**********">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label class="form-text text-muted text-justify">RG</label>
+                        <input type="text" class="form-control" id="inputEmail4" >
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label class="form-text text-muted text-justify">CPF</label>
+                        <input type="text" class="form-control" id="inputPassword4" >
+                    </div>
+                </div>
+                <div class="form-row">
+                        <label class="form-text text-muted text-justify">Telefone</label>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-2" id="DDD" >
+                        <input class="form-control" type="text" placeholder="DDD" name="ddd">
+                    </div>
+                    <div class="form-group col-md-10" id="Tel" >
+                       <input class="form-control" type="text" placeholder="Telefone" name="telefone">
+                    </div>
+                </div>
+                <div class="form-row">
+                        <label class="form-text text-muted text-justify">Celular</label>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-12" >
+                       <input class="form-control" type="text" id="Cel" placeholder="Celular" name="celular">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="form-text text-muted text-justify">Rua</label>
+                    <input type="text" class="form-control" id="inputAddress" placeholder="Rua xxxxx, nº 0">
+                </div>
+                <div class="form-group">
+                    <label class="form-text text-muted text-justify">Bairro</label>
+                    <input type="text" class="form-control" id="inputAddress2" placeholder="Bairro">
+                    </div>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label class="form-text text-muted text-justify">Cidade</label>
+                        <input type="text" class="form-control" id="inputCity">
+                    </div>
+                    <div class="form-group col-md-4">
+                        <label class="form-text text-muted text-justify">Estado</label>
+                        <select id="inputEstado" class="form-control">
+                            <option selected>Selecionar</option>
+                            <option>Acre</option>
+                            <option>Alagoas</option>
+                            <option>Amapá</option>
+                            <option>Amazonas</option>
+                            <option>Bahia</option>
+                            <option>Ceará</option>
+                            <option>Distrito Federal</option>
+                            <option>Espírito Santo</option>
+                            <option>Goiás</option>
+                            <option>Maranhão</option>
+                            <option>Mato Grosso</option>
+                            <option>Mato Grosso do Sul</option>
+                            <option>Minas Gerais</option>
+                            <option>Pará</option>
+                            <option>Paraíba</option>
+                            <option>Paraná</option>
+                            <option>Pernambuco</option>
+                            <option>Piauí</option>
+                            <option>Rio Grande do Norte</option>
+                            <option>Rio Grande do Norte</option>
+                            <option>Rio de Janeiro</option>
+                            <option>Rondônia</option>
+                            <option>Roraima</option>
+                            <option>Santa Catarina</option>
+                            <option>São Paulo</option>
+                            <option>Sergipe</option>
+                            <option>Tocantins</option>
+                        </select>
+                    </div>
+                    <div class="form-group col-md-2">
+                        <label for="inputCEP">CEP</label>
+                        <input type="text" class="form-control" id="inputCEP">
+                    </div>
+                </div>
+                <div class="form-group row">
+                        <label class="col-12 form-text text-muted text-justify">Sexo</label>
+                </div>
+                <div class="row">
+                    <div class="form-check col-6">
+                        <input class="form-check-input" type="checkbox" id="gridCheck">
+                        <label class="form-check-label text-muted text-justify" >Feminino</label>
+                    </div>
+                    <div class="form-check col-6">
+                        <input class="form-check-input" type="checkbox" id="gridCheck">
+                        <label class="form-check-label text-muted text-justify" >Masculino</label>
+                    </div>
+                </div>
+            </form>
+                <!--Botão-->
+                <div class="form-row ">
+                    <div class="my-5 mx-auto col-lg-6">
+                        <a class="form-control form-control-lg btn-lg btn btn-info" href="index.html" role="button">Cadastrar</a>
+                    </div>
+                </div>
+            </form>
+            <div class="form-row">
+                <div class="col-lg-5 ml-auto text-center">
+                    <a class="nav-link"> </a>
+                </div>
+            </div>
+        </div>
+    
+</body>
+</html>
